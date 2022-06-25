@@ -1,0 +1,148 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+
+
+
+
+  <section id="header">
+
+    <div class="sidenav d-flex justify-content-between">
+      <div class="linkcontainer d-flex flex-column justify-content-between align-items-center">
+
+      <div class="links">
+        <a href="#nowplaying" id="nowplaying">Now Playing </a>
+        <a href="#popular" id="popular">Popular</a>
+        <a href="#toprated" id="toprated">Top Rated</a>
+        <a href="#trending" id="trending">Trending</a>
+        <a href="#upComing" id="upComing">UP Coming</a>
+        <a href="#contact" id="cont">Contact us</a>
+
+
+      </div>
+    
+      <div class="social">
+        <a href="https://www.facebook.com/" target="_blank"> <i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/" target="_blank">  <i class="fab fa-twitter"></i></a>
+        <a href=""> <i class="fas fa-globe"></i></a>
+       
+        
+      </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+      <div class="sidenav2 vh-100 d-flex flex-column justify-content-between align-items-center">
+        <div >
+          <img src="images/logo.png">
+        </div>
+        <span id="open" style="font-size:30px" onclick="openNav()">☰</span>
+
+        <div class="strip-social-icon">
+          <div class="strip-lang">
+            <span>
+              <i class="fas fa-globe"></i>
+            </span>
+          </div>
+        
+          <div class="strip-share">
+            <span>
+              <i class="fas fa-share-alt"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+
+  <section id="search">
+    <div class="container ">
+      <div class="row">
+        <input class="form-control" id="search" placeholder="search ....."  onfocus="Focusfunction()">
+      </div>
+    </div>
+  </section>
+
+
+
+  <section>
+    <div class="container">
+      <div class="row m-5" id="movieslist">
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section id="contact">
+    <div class="container text-center">
+      <h2>Contact US ...</h2>
+      <div class="row">
+        <div class="col-md-6"> 
+        <input class="form-control" id="name" placeholder="Enter Your Name">
+        <div class="alert alert-danger p-1 mt-2 d-none" id="namealert"><p>Your Name is not valid</p></div>
+        <input class="form-control" id="phone"  placeholder="Enter phone">
+        <div class="alert alert-danger p-1 mt-2 d-none" id="phonealert"><p>Entre valid phone</p></div>
+        <input class="form-control" type="password" id="password" placeholder="Enter Password">
+        <div class="alert alert-danger p-1 mt-2 d-none" id="passwordalert"><p>Entre valid password *Minimum eight characters, at least one letter and one number:*</p></div>
+        </div>
+        <div class="col-md-6">
+          <input class="form-control" id="email" placeholder="Enter Email">
+          <div class="alert alert-danger p-1 mt-2 d-none" id="emailalert"><p>Entre valid email</p></div>
+          <input class="form-control" id="age" placeholder="Enter Age">
+          <div class="alert alert-danger p-1 mt-2 d-none"id="agealert"><p>Entre valid Age</p></div>
+          <input class="form-control" type="password" id="rePassword" placeholder="Enter RePassword">
+          <div class="alert alert-danger p-1 mt-2 d-none" id="repasswordalert"><p>Entre valid Repassword</p></div>
+        </div>
+      </div>
+      <button class="btn" disabled id="submit">Submit</button>
+    </div>
+  </section>
+
+
+<footer>
+  <div class="col-md-12">
+    <div class="container d-flex align-items-center justify-content-center p-3 ">
+      <h6>Copy Right 2022 © By Mohammed Mostafa &nbsp;All Rights Reserved.</h6>
+    </div>
+  </div>
+</footer>
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+
+</html>

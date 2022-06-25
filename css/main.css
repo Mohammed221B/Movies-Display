@@ -1,0 +1,198 @@
+
+
+body{
+background-color: #000000f2;
+font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* -------------------------------------- */
+#search {
+    
+  
+    margin: 30px;
+   
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+   
+    
+}
+#search .container .row {
+    display: flex;
+    
+    width: 70%;
+    margin: auto;
+}
+
+
+
+
+
+
+/* ------------------------------------- */
+.sidenav{
+  
+    height: 100%;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    width: 260px;
+   
+}
+
+
+
+.sidenav .links a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+    display: block;
+    color: white;
+ 
+  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+.sidenav .links a:hover {
+    color: #EF6535;
+}
+
+.sidenav .closebtn {
+
+    font-size: 36px;
+    cursor: pointer;
+}
+
+#open {
+    cursor: pointer;
+    /* position: absolute; */
+    left: 0px;
+    transition: 0.5s;
+}
+
+.sidenav2 {
+    background-color: #F8F6F6;
+    width: 60px;
+
+}
+.strip-social-icon .strip-lang  span i{
+    margin: 15px;
+}
+.strip-social-icon .strip-share  span i{
+    margin: 15px;
+}
+ .social {
+    margin: 30px;
+ }
+ .social i {
+    margin: 10px;
+    color: white;
+ }
+
+ .social i:hover {
+  color: #EF6535;
+ }
+/* -----------------layer shadow---------------- */
+
+
+.img-contain{
+    position: relative;
+    overflow: hidden;
+}
+
+ .img-layer {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.7);
+    transition-duration: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 19px;
+}
+
+.img-contain:hover .img-layer {
+    top: 0;
+
+}
+
+.movie-details {
+    text-align: center;
+    
+    font-weight: 800;
+   
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.movie-details h2 {
+    font-weight: 1500 !important;
+}
+
+/* --------------------------------------------- */
+
+#contact {
+    margin-top: 120px;
+    
+}
+#contact h2 {
+color: white;
+}
+
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius: 0;
+ 
+    font-weight: 800;
+    text-align: center;
+    margin: 20px;
+
+}
+.btn{
+    margin-top: 30px;
+    color: #EF6535;
+  border-color: #EF6535;
+  
+}
+
+.btn:hover{
+    margin-top: 30px;
+   background-color: #EF6535;
+   color: white;
+  border-color: #EF6535;
+  
+}
+
+
+.alert {
+    width: 100%;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+/* --------------------------------------------------- */
+
+footer {
+    margin-top: 50px;
+    color: white;
+
+    border-top: 1px solid rgba(255,255,255,.3);
+}
+
+footer:hover {
+    color: #EF6535;
+}
